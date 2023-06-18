@@ -1,1 +1,2 @@
 # SMART
+template
