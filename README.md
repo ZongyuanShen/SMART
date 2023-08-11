@@ -1,4 +1,4 @@
-# SMART: Self-Morphing Anytime Replanning Tree for Dynamic Environments
+# SMART: Self-Morphing Adaptive Replanning Tree for Dynamic Environments
 
 ## Introduction: 
 The paper presents a replanning algorithm, called Self-Morphing Anytime Replanning Tree (SMART), that facilitates anytime replanning in dynamic environments, where the behavior of dynamic obstacle is unpredictable. Please refer to [our paper](https://arxiv.org/abs/2305.06487) for more detailts.
