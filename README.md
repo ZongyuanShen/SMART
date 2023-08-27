@@ -13,6 +13,13 @@ Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree crea
 ## Introduction: 
 The paper presents a replanning algorithm, called Self-Morphing Anytime Replanning Tree (SMART), that facilitates anytime replanning in dynamic environments, where the behavior of dynamic obstacle is unpredictable. Please refer to [our paper](https://arxiv.org/abs/2305.06487) for more detailts.
 
+## Usage
+
+```sh
+compile Main.cpp
+run the executable file
+```
+
 ## Citation
 
 If you use the results presented in this paper or the code from the repository, please cite the relevant [paper](https://arxiv.org/abs/2305.06487):
@@ -23,3 +30,8 @@ author={Shen, Zongyuan and Wilson, James P and Gupta, Shalabh and Harvey, Ryan},
 journal={arXiv preprint arXiv:2305.06487},
 year={2023}
 }
+```
+
+## License
+
+[MIT](LICENSE) © Zongyuan Shen
