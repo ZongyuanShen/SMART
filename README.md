@@ -1,5 +1,7 @@
 <h1 align="center">SMART: Self-Morphing Adaptive Replanning Tree</h1>
 <h4 align="center">Zongyuan Shen, James P. Wilson, Shalabh Gupta*, Ryan Harvey</h4>
+<h4 align="center">Department of Electrical & Computer Engineering, University of Connecticut, Storrs, CT, USA</h4>
+
 <p align="center"> [<b><a href="https://arxiv.org/abs/2305.06487">Paper</a></b>] &emsp; [<b><a href="#citation">Citation</a></b>] </p>
 
 ![Main idea](https://github.com/ZongyuanShen/SMART/assets/136994172/e68db789-7cf1-4b97-bb22-eb7e0b036c44)
@@ -11,9 +13,17 @@ Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree crea
 </p>
 
 ## Introduction 
-The paper presents a replanning algorithm, called Self-Morphing Anytime Replanning Tree (SMART), that facilitates anytime replanning in dynamic environments, where the behavior of dynamic obstacle is unpredictable. Please refer to [our paper](https://arxiv.org/abs/2305.06487) for more detailts.
+The paper presents an algorithm, called Self-Morphing Adaptive Replanning Tree (SMART), that facilitates fast reactive replanning in dynamic environments. SMART performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, for speedy recovery, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path. Please refer to [our paper](https://arxiv.org/abs/2305.06487) for more detailts.
 
-## Demo 
+## Simulation Video 
+### Scenario 1 with Dynamic Obstacles
+This scenario consists of a 32m by 32m space populated with 15 dynamic obstacles moving at a constant speed of 4m/s.
+
+### Scenario 2 with Static and Dynamic Obstacles
+This scenario depicts a real situation (e.g., a factory) with both static and dynamic obstacles. It consisted of a 66m by 38m space with a static obstacle layout and 10 dynamic obstacles. Each obstacle moves at a different speed selected from the set {1, 2, 3, 4}m/s.
+
+## Experiment
+The SMART algorithm is further validated by real experiments in a 7m by 7m lab space with both static and dynamic obstacles. A robot called ROSMASTER X3 is used that is equipped with 1) a RPLIDAR S2L lidar with a range of 8m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation. An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
 
 ## Usage
 
