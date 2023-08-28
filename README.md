@@ -25,6 +25,10 @@ This scenario depicts a real situation (e.g., a factory) with both static and dy
 ## Experiment
 The SMART algorithm is further validated by real experiments in a 7m by 7m lab space with both static and dynamic obstacles. A robot called ROSMASTER X3 is used that is equipped with 1) a RPLIDAR S2L lidar with a range of 8m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation. An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
 
+
+https://github.com/ZongyuanShen/SMART/assets/136994172/71cbc6b4-fd0b-432b-84b3-03f6d5acf87c
+
+
 ## Usage
 
 ```sh
