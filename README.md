@@ -15,6 +15,9 @@ Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree crea
 ## Introduction 
 The paper presents an algorithm, called Self-Morphing Adaptive Replanning Tree (SMART), that facilitates fast reactive replanning in dynamic environments. SMART performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, for speedy recovery, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path. Please refer to [our paper](https://arxiv.org/abs/2305.06487) for more detailts.
 
+[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
+
+
 ## Simulation Video 
 ### Scenario 1 with Dynamic Obstacles
 This scenario consists of a 32m by 32m space populated with 15 dynamic obstacles moving at a constant speed of 4m/s.
