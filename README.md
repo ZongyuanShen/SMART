@@ -4,8 +4,6 @@
 
 <p align="center"> [<b><a href="https://arxiv.org/abs/2305.06487">Paper</a></b>] &emsp; [<b><a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf">Presentation</a></b>] &emsp; [<b><a href="#citation">Citation</a></b>] </p>
 
-[![License][license-shield]][license-url]
-
 ## Table of Contents
 
 - [Introduction](#Introduction)
@@ -72,7 +70,3 @@ This research is supported by the Air Force Research Laboratory.
 ## License
 
 [MIT](LICENSE) © Zongyuan Shen
-
-
-[license-shield]: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
-[license-url]: https://opensource.org/license/mit/
