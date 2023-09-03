@@ -2,7 +2,7 @@
 <h4 align="center">Zongyuan Shen, James P. Wilson, Shalabh Gupta*, Ryan Harvey</h4>
 <h4 align="center">Department of Electrical & Computer Engineering, University of Connecticut, Storrs, CT, USA</h4>
 
-<p align="center"> [<b><a href="https://arxiv.org/abs/2305.06487">Paper</a></b>] &emsp; [<b><a href="#citation">Citation</a></b>] &emsp; [<b><a href="https://github.com/ZongyuanShen/SMART/files/12507937/SMART_RAL_Revised.13.pdf">Presentation</a></b>] </p>
+<p align="center"> [<b><a href="https://arxiv.org/abs/2305.06487">Paper</a></b>] &emsp; [<b><a href="#citation">Citation</a></b>] &emsp; [<b><a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf">Presentation</a></b>] </p>
 
 ## Introduction 
 The paper presents an algorithm, called Self-Morphing Adaptive Replanning Tree (SMART), that facilitates fast reactive replanning in dynamic environments. SMART performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, for speedy recovery, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path. Please refer to [our paper](https://arxiv.org/abs/2305.06487) for more detailts.
