@@ -11,7 +11,7 @@
 - [Experiment](#Experiment)
 - [Usage](#usage)
 - [Citation](#Citation)
-- [License](#License)
+- [Acknowledgement](#Acknowledgement)
 - [License](#license)
 
 ## Introduction 
@@ -63,6 +63,9 @@ journal={arXiv preprint arXiv:2305.06487},
 year={2023}
 }
 ```
+
+## Acknowledgement
+This research is supported by the Air Force Research Laboratory.
 
 ## License
 
