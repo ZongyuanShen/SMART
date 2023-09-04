@@ -56,9 +56,9 @@ run the executable file
 If you use the results presented in this paper or the code from the repository, please cite the relevant [paper](https://arxiv.org/abs/2305.06487):
 ```
 @article{shen2023smart,
-title={SMART: Self-Morphing Adaptive Replanning Tree},
 author={Shen, Zongyuan and Wilson, James P and Gupta, Shalabh and Harvey, Ryan},
 journal={IEEE Robotics and Automation Letters},
+title={SMART: Self-Morphing Adaptive Replanning Tree},
 year={2023}
 volume={},
 number={},
