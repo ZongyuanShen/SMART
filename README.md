@@ -26,9 +26,7 @@ Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree crea
 ### Scenario 1 with Dynamic Obstacles
 This scenario consists of a 32m by 32m space populated with 15 dynamic obstacles moving at a constant speed of 4m/s.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=nTQUwghvy5Q" target="_blank">
- <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/ff1d5344-f0ca-47e4-a9aa-61d383ac4f56" alt="Watch the video"  width="240" height="180" border="10" />
-</a>
+
 
 ### Scenario 2 with Static and Dynamic Obstacles
 This scenario depicts a real situation (e.g., a factory) with both static and dynamic obstacles. It consisted of a 66m by 38m space with a static obstacle layout and 10 dynamic obstacles. Each obstacle moves at a different speed selected from the set {1, 2, 3, 4}m/s.
