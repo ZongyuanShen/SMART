@@ -58,8 +58,12 @@ If you use the results presented in this paper or the code from the repository, 
 @article{shen2023smart,
 title={SMART: Self-Morphing Adaptive Replanning Tree},
 author={Shen, Zongyuan and Wilson, James P and Gupta, Shalabh and Harvey, Ryan},
-journal={arXiv preprint arXiv:2305.06487},
+journal={IEEE Robotics and Automation Letters},
 year={2023}
+volume={},
+number={},
+pages={-},
+doi={}
 }
 ```
 
