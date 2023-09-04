@@ -24,25 +24,25 @@ Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree crea
 
 ## Demo 
 ### Scenario 1 with Dynamic Obstacles
-This scenario consists of a 32m by 32m space populated with 15 dynamic obstacles moving at a constant speed of 4m/s.
+This scenario consists of a 32m by 32m space populated with 15 dynamic obstacles moving at a constant speed of 4m/s. The robot is moving at a constant speed of 4m/s.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Xb0yWwwN0SE
 " target="_blank"><img src="http://img.youtube.com/vi/Xb0yWwwN0SE/mqdefault.jpg" 
 alt="IMAGE ALT TEXT HERE"  border="10" /></a>
 
 ### Scenario 2 with Static and Dynamic Obstacles
-This scenario depicts a real situation (e.g., a factory) with both static and dynamic obstacles. It consisted of a 66m by 38m space with a static obstacle layout and 10 dynamic obstacles. Each obstacle moves at a different speed selected from the set {1, 2, 3, 4}m/s.
+This scenario depicts a real situation (e.g., a factory) with both static and dynamic obstacles. It consisted of a 66m by 38m space with a static obstacle layout and 10 dynamic obstacles. Each obstacle moves at a different speed selected from the set {1, 2, 3, 4}m/s. The robot is moving at a constant speed of 4m/s.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=nTQUwghvy5Q" target="_blank">
- <img src="http://img.youtube.com/vi/nTQUwghvy5Q/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
-</a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Xb0yWwwN0SE
+" target="_blank"><img src="http://img.youtube.com/vi/Xb0yWwwN0SE/mqdefault.jpg" 
+alt="IMAGE ALT TEXT HERE"  border="10" /></a>
 
 ### Experiment
 The SMART algorithm is further validated by real experiments in a 7m by 7m lab space with both static and dynamic obstacles. A robot called ROSMASTER X3 is used that is equipped with 1) a RPLIDAR S2L lidar with a range of 8m for obstacle detection, 2) MD520 motor with encoder for detection of rotation angle and linear displacement, and 3) MPU9250 IMU for detection of speed, acceleration, and orientation. An Extended Kalman Filter is used to fuse data from the IMU and motor encoder for localization.
 
-
-https://github.com/ZongyuanShen/SMART/assets/136994172/71cbc6b4-fd0b-432b-84b3-03f6d5acf87c
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Xb0yWwwN0SE
+" target="_blank"><img src="http://img.youtube.com/vi/Xb0yWwwN0SE/mqdefault.jpg" 
+alt="IMAGE ALT TEXT HERE"  border="10" /></a>
 
 ## Usage
 
