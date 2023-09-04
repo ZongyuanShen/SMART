@@ -27,7 +27,7 @@ Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree crea
 This scenario consists of a 32m by 32m space populated with 15 dynamic obstacles moving at a constant speed of 4m/s.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=R7KDaJd8ADI&t=25s
-" target="_blank"><img src="http://img.youtube.com/vi/R7KDaJd8ADI&t=25s/sddefault.jpg" 
+" target="_blank"><img src="https://github.com/ZongyuanShen/SMART/assets/136994172/e68db789-7cf1-4b97-bb22-eb7e0b036c44" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
