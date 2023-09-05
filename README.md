@@ -21,6 +21,7 @@ Fig. Robot navigates in a dynamic environment, where robot and obstacles are mov
 - [Citation](#Citation)
 - [Acknowledgement](#Acknowledgement)
 - [License](#license)
+- [Maintaince](#Maintaince)
 
 ## Introduction 
 **SMART** facilitates fast reactive replanning in dynamic environments. It performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, for speedy recovery, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path.
