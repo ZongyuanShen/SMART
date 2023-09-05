@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "300" height = "300"/>
-  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/cda1d4e0-1b42-46b0-a3aa-b4fc5699410c" width = "519.792" height = "300.027"/>
+  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/cda1d4e0-1b42-46b0-a3aa-b4fc5699410c" width = "519.792"/>
 </p>
 
 
