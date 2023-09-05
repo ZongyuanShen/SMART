@@ -4,6 +4,12 @@
 
 <p align="center"> [<b><a href="https://arxiv.org/abs/2305.06487">Paper</a></b>] &emsp; [<b><a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf">Presentation</a></b>] &emsp; [<b><a href="#citation">Citation</a></b>] </p>
 
+<img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" 
+ height = 400 width = 400 border="10" />
+
+ <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" 
+ height = 400 width = 400 border="10" />
+
 ## Table of Contents
 
 - [Introduction](#Introduction)
@@ -25,14 +31,6 @@ Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree crea
 ## Demo 
 ### Scenario 1 with Dynamic Obstacles
 This scenario consists of a 32m by 32m space populated with 15 dynamic obstacles moving at a constant speed of 4m/s. The robot is moving at a constant speed of 4m/s.
-
-
-
-
-<img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" 
- height = 600 width = 600 border="10" />
-
-
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Xb0yWwwN0SE
 " target="_blank"><img src="http://img.youtube.com/vi/Xb0yWwwN0SE/mqdefault.jpg" 
