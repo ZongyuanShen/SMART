@@ -19,7 +19,7 @@
 - [License](#license)
 
 ## Introduction 
-The paper presents an algorithm, called Self-Morphing Adaptive Replanning Tree (SMART), that facilitates fast reactive replanning in dynamic environments. SMART performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, for speedy recovery, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path. Please refer to [our paper](https://arxiv.org/abs/2305.06487) for more detailts.
+**SMART** facilitates fast reactive replanning in dynamic environments. It performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, for speedy recovery, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path.
 
 ![Main idea](https://github.com/ZongyuanShen/SMART/assets/136994172/e68db789-7cf1-4b97-bb22-eb7e0b036c44)
 
