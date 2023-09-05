@@ -5,8 +5,8 @@
 <p align="center"> [<b><a href="https://arxiv.org/abs/2305.06487">Paper</a></b>] &emsp; [<b><a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf">Presentation</a></b>] &emsp; [<b><a href="#citation">Citation</a></b>] </p>
 
 <p align="center">
-  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "400" height = "400"/>
-  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "400" height = "400"/>
+  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "300" height = "300"/>
+  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "300" height = "300"/>
 </p>
 
 ## Table of Contents
