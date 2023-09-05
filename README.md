@@ -13,7 +13,7 @@
 
 
 <p align="center">
-Fig. Robot and obstacles are moving at a constant speed of 4m/s. Play speed is 1x.
+Fig. Robot and dynamic obstacles are moving at a constant speed of 4m/s. Play speed is 1x.
 </p>
 
 ## Table of Contents
