@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="Gif/Scenario1_video_1x.gif" height = "300"/>
-  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/cda1d4e0-1b42-46b0-a3aa-b4fc5699410c" height = "300"/>
+  <img src="Gif/Scenario2_video_1x.gif" height = "300"/>
 </p>
 
 
