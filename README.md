@@ -6,9 +6,10 @@
 
 <p align="center">
   <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "300" height = "300"/>
-  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/1eaaf3aa-e3c6-419f-830c-ca195e7db080" width = "519.792" height = "300.027"/>
+  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/07605635-16ef-44ab-8a62-87197a75623c" width = "519.792" height = "300.027"/>
   <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/182de219-bcea-4c9e-bc2f-6a787088f67a" width = "534.72" height = "300.2230"/>
 </p>
+
 
 
 
