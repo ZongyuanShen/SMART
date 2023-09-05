@@ -13,7 +13,7 @@
 
 
 <p align="center">
-Fig. Robot navigates in a dynamic environment, where robot and obstacles are moving at a constant speed of 4m/s. Play speed is 1x.
+Fig. Robot and obstacles are moving at a constant speed of 4m/s. Play speed is 1x.
 </p>
 
 ## Table of Contents
