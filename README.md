@@ -29,7 +29,7 @@ This scenario consists of a 32m by 32m space populated with 15 dynamic obstacles
 
 
 <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/65e093fd-82f0-4115-bf8c-3fe3ab955875" 
-alt="IMAGE ALT TEXT HERE"  border="10" />
+alt="IMAGE ALT TEXT HERE" height = 10 width = 10 border="10" />
 
 
 
