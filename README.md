@@ -6,8 +6,9 @@
 
 <p align="center">
   <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "300" height = "300"/>
-  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/07605635-16ef-44ab-8a62-87197a75623c" width = "519.792" height = "300.027"/>
+  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/f2378fc7-c691-4f4f-a636-4d355adc46eb" width = "519.792" height = "300.027"/>
 </p>
+
 
 <p align="center">
 Fig. Robot navigates in a dynamic environment, where robot and obstacles are moving at a constant speed of 4m/s. Play speed is 1x.
