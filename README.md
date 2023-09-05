@@ -9,10 +9,9 @@
   <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/07605635-16ef-44ab-8a62-87197a75623c" width = "519.792" height = "300.027"/>
 </p>
 
-
-
-
-
+<p align="center">
+Fig. Robot navigates in a dynamic environment, where robot and obstacles are moving at a constant speed of 4m/s. Play speed is 1x.
+</p>
 
 ## Table of Contents
 
