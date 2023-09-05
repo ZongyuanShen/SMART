@@ -6,8 +6,9 @@
 
 <p align="center">
   <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "300" height = "300"/>
-  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/6cea5b3a-17dd-47f3-a148-377b6d145881" width = "300" height = "300"/>
+  <img src="https://github.com/ZongyuanShen/SMART/assets/136994172/1eaaf3aa-e3c6-419f-830c-ca195e7db080" width = "544" height = "314"/>
 </p>
+
 
 ## Table of Contents
 
@@ -78,3 +79,6 @@ This research is supported by the Air Force Research Laboratory.
 ## License
 
 [MIT](LICENSE) © Zongyuan Shen
+
+## Maintaince
+For any technical issues, please contact Zongyuan Shen (zongyuan.shen@uconn.edu).
