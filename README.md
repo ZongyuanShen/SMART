@@ -4,18 +4,6 @@
 
 <p align="center"> [<b><a href="https://arxiv.org/abs/2305.06487">Paper</a></b>] &emsp; [<b><a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf">Presentation</a></b>] &emsp; [<b><a href="#Demo">Demo</a></b>] &emsp; [<b><a href="#citation">Citation</a></b>]</p>
 
-<p align="center">
-  <img src="Gif/Scenario1_video_1x.gif" height = "300"/>
-  <img src="Gif/Scenario2_video_1x.gif" height = "300"/>
-</p>
-
-
-
-
-<p align="center">
-Fig. Robot and dynamic obstacles are moving at a constant speed of 4m/s. Video play speed is 1x.
-</p>
-
 ## Table of Contents
 
 - [Introduction](#Introduction)
@@ -29,10 +17,13 @@ Fig. Robot and dynamic obstacles are moving at a constant speed of 4m/s. Video p
 ## Introduction 
 **SMART** facilitates fast reactive replanning in dynamic environments. It performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, for speedy recovery, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path.
 
-![Main idea](https://github.com/ZongyuanShen/SMART/assets/136994172/e68db789-7cf1-4b97-bb22-eb7e0b036c44)
+<p align="center">
+  <img src="Gif/Scenario1_video_1x.gif" height = "300"/>
+  <img src="Gif/Scenario2_video_1x.gif" height = "300"/>
+</p>
 
 <p align="center">
-Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree creation, and b)-i) tree-repair and replanning.
+Fig. Robot and dynamic obstacles are moving at a constant speed of 4m/s. Video play speed is 1x.
 </p>
 
 ## Demo 
@@ -64,7 +55,6 @@ alt="IMAGE ALT TEXT HERE"  border="10" /></a>
   - File "Main.cpp": trialIndex, dynObsNum, dynObsSpeed, robotSpeed, sceneIndex, dynObsPosition 
   - File "SMART.cpp": goalX, goalY, cellSize, robotX, robotY
   - File "SMART.h": mapROW, mapCOL
-
 ```
 trialIndex: control the random seed to generate the tree
 sceneIndex: control the random seed to generate dynamic obstacle motion
@@ -75,11 +65,13 @@ cellSize: size of cell in meter
 mapROW: number of cells in each row
 mapCOL: number of cells in each column
 ```
+
 - **Outputs:**
   - Replanning time (s)
   - Trajectory length (m)
   - Travel Time (s)
   - Recorded data
+    
 - **Recorded data:**
   - Dynamic obstacle
   - Tree
@@ -88,14 +80,23 @@ mapCOL: number of cells in each column
 ```
 Function dataRecord() is used to record the data for visualization on Matlab.
 ```
+
 - **Compilation:**
 ```
 compile Main.cpp
 run the executable file
 ```
 
-### Matlab for visualization
+### Matlab for visualization:
+- **User-defined input:**
+  - File "Main.m": folder. It is a character array to store the directory to the folder that contains the recorded data.
+  - File "Main.m": videoRecord. A demo video will be created if videoRecord = true.
 
+- **Demo generation:**
+```
+run Main.m
+```
+    
 
 ## Citation
 
