@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-Fig. Robot and dynamic obstacles are moving at a constant speed of 4m/s. Video shows the full algorithm detailts.
+Fig. Robot and dynamic obstacles move at a constant speed of 4m/s. Video shows the full algorithm detailts.
 </p>
 
 ## Usage
