@@ -60,12 +60,12 @@ alt="IMAGE ALT TEXT HERE"  border="10" /></a>
 ## Usage
 
 ### C++
-- **User-defined parameters:**
-```sh
-File "Main.cpp": trialIndex, dynObsNum, dynObsSpeed, robotSpeed, sceneIndex, dynObsPosition 
-File "SMART.cpp": goalX, goalY, cellSize, robotX, robotY
-File "SMART.h": mapROW, mapCOL
+- **User-defined inputs:**
+  - File "Main.cpp": trialIndex, dynObsNum, dynObsSpeed, robotSpeed, sceneIndex, dynObsPosition 
+  - File "SMART.cpp": goalX, goalY, cellSize, robotX, robotY
+  - File "SMART.h": mapROW, mapCOL
 
+```
 trialIndex: control the random seed to generate the tree
 sceneIndex: control the random seed to generate dynamic obstacle motion
 dynObsPosition: initial position of dynamic obstacle
@@ -75,14 +75,21 @@ cellSize: size of cell in meter
 mapROW: number of cells in each row
 mapCOL: number of cells in each column
 ```
-- **Data record:**
-```sh
-Function dataRecord() is used to record 1) dynamic obstacle, 2) tree, 3) path, and 4) robot's footprint for visualization on Matlab
-Note: do not comment out function footPrintInfoRecord which records robot's footprint to compute total travel length
+- **Outputs:**
+  - Replanning time (s)
+  - Trajectory length (m)
+  - Travel Time (s)
+  - Recorded data
+- **Recorded data:**
+  - Dynamic obstacle
+  - Tree
+  - Path
+  - Robot's footprint
 ```
-
+Function dataRecord() is used to record the data for visualization on Matlab.
+```
 - **Compilation:**
-```sh
+```
 compile Main.cpp
 run the executable file
 ```
