@@ -88,7 +88,7 @@ year={2023}
 volume={},
 number={},
 pages={-},
-doi={}
+doi={10.1109/LRA.2023.3315210}
 }
 ```
 
