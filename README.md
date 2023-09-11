@@ -41,6 +41,7 @@ robotX and robotY: initial robot position
 cellSize: size of cell in meter
 mapROW: number of cells in each row
 mapCOL: number of cells in each column
+Size of search space: mapCOL * cellSize (length) by mapROW * cellSize (width) 
 ```
 
 - **Outputs:**
