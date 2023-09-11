@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-Fig. Robot and dynamic obstacles move at a constant speed of 4m/s. Video shows the full algorithm detailts.
+Fig. Robot (yellow point) and dynamic obstacles (grey circle) move at a constant speed of 4m/s.
 </p>
 
 ## Usage
