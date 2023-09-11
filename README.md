@@ -29,15 +29,15 @@ Fig. Robot and dynamic obstacles move at a constant speed of 4m/s. Video shows t
 
 ### C++
 - **User-defined inputs:**
-  - File "Main.cpp": trialIndex, dynObsNum, dynObsSpeed, robotSpeed, sceneIndex, dynObsPosition 
-  - File "SMART.cpp": goalX, goalY, cellSize, robotX, robotY
+  - File "Main.cpp": trialIndex, dynObsNum, dynObsSpeed, robotSpeed, sceneIndex, dynObsPosition, goalX, goalY, robotX, robotY
+  - File "SMART.cpp": cellSize 
   - File "SMART.h": mapROW, mapCOL
 ```
 trialIndex: control the random seed to generate the tree
 sceneIndex: control the random seed to generate dynamic obstacle motion
 dynObsPosition: initial position of dynamic obstacle
 goalX and goalY: fixed goal position
-robotX and robotY: varying robot position with user-defined initial value
+robotX and robotY: initial robot position
 cellSize: size of cell in meter
 mapROW: number of cells in each row
 mapCOL: number of cells in each column
@@ -66,8 +66,8 @@ run the executable file
 
 ### Matlab for visualization:
 - **User-defined input:**
-  - File "Main.m": folder. It is a character array to store the directory to the folder that contains the recorded data.
-  - File "Main.m": videoRecord. A demo video will be created if videoRecord = true.
+  - "folder": It is a character array to store the directory to the folder that contains the recorded data.
+  - "videoRecord": A demo video will be created if videoRecord = true.
 
 - **Demo generation:**
 ```
