@@ -78,7 +78,7 @@ run Main.m
 
 ## Citation
 
-If you use the results presented in this paper or the code from the repository, please cite the relevant [paper](https://arxiv.org/abs/2305.06487):
+If you use the results presented in this paper or the code from the repository, please cite this paper:
 ```
 @article{shen2023smart,
 author={Shen, Zongyuan and Wilson, James P and Gupta, Shalabh and Harvey, Ryan},
