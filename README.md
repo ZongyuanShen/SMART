@@ -87,11 +87,9 @@ title={SMART: Self-Morphing Adaptive Replanning Tree},
 year={2023}
 volume={},
 number={},
-pages={-},
+pages={1-8},
 doi={10.1109/LRA.2023.3315210}
 }
-
-Z. Shen, J. P. Wilson, S. Gupta, and R. Harvey, “SMART: Self-Morphing Adaptive Replanning Tree,” IEEE Robotics and Automation Letters, vol. , no. , pp. –, Sep. 2023.
 ```
 Please kindly star :star: this project if it helps you.
 
