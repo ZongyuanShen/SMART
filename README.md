@@ -15,7 +15,7 @@
 - [Maintaince](#Maintaince)
 
 ## Introduction 
-**SMART** facilitates fast reactive replanning in dynamic environments. It performs risk-based tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path.
+**SMART** facilitates fast reactive replanning in dynamic environments. It performs risk-based local tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path.
 
 <p align="center">
   <img src="Gif/Scenario1_video_1x.gif" height = "300"/>
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-Fig. Robot (yellow point) and dynamic obstacles (grey circle) move at a constant speed of 4m/s.
+Fig. Point robot (yellow point) and dynamic obstacles (grey circle) move at a constant speed of 4m/s.
 </p>
 
 ## Experiment 
