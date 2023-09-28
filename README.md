@@ -91,9 +91,9 @@ author={Shen, Zongyuan and Wilson, James P and Gupta, Shalabh and Harvey, Ryan},
 journal={IEEE Robotics and Automation Letters},
 title={SMART: Self-Morphing Adaptive Replanning Tree},
 year={2023}
-volume={},
-number={},
-pages={1-8},
+volume={8},
+number={11},
+pages={7312-7319},
 doi={10.1109/LRA.2023.3315210}
 }
 ```
