@@ -35,19 +35,16 @@ https://github.com/ZongyuanShen/SMART/assets/136994172/9fcbdebb-4010-4bc9-a552-5
 
 ### C++
 - **User-defined inputs:**
-  - File "Main.cpp": trialIndex, dynObsNum, dynObsSpeed, robotSpeed, sceneIndex, dynObsPosition, goalX, goalY, robotX, robotY
-  - File "SMART.cpp": cellSize 
-  - File "SMART.h": mapROW, mapCOL
+  - File "Main.cpp": trialIndex, dynObsNum, dynObsSpeed, sceneIndex, dynObsPosition, robotInitState, goalState
+  - File "SMART.cpp": cellSize, staticObsMap.txt
 ```
 trialIndex: control the random seed to generate the tree
 sceneIndex: control the random seed to generate dynamic obstacle motion
 dynObsPosition: initial position of dynamic obstacle
-goalX and goalY: fixed goal position
-robotX and robotY: initial robot position
+goalState: fixed goal position
+robotInitState: initial robot position and speed
 cellSize: size of cell in meter
-mapROW: number of cells in each row
-mapCOL: number of cells in each column
-Size of search space: mapCOL * cellSize (length) by mapROW * cellSize (width) 
+staticObsMap.txt: binary occupancy grid map. free = 0; occupied = 1.
 ```
 
 - **Outputs:**
