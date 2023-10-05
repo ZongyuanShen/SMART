@@ -84,14 +84,13 @@ run Main.m
 If you use the results presented in this paper or the code from the repository, please cite this paper:
 ```
 @article{shen2023smart,
+title={\uppercase{SMART}: Self-Morphing Adaptive Replanning Tree},
 author={Shen, Zongyuan and Wilson, James P and Gupta, Shalabh and Harvey, Ryan},
 journal={IEEE Robotics and Automation Letters},
-title={SMART: Self-Morphing Adaptive Replanning Tree},
-year={2023}
+year={Sep. 2023},
 volume={8},
 number={11},
-pages={7312-7319},
-doi={10.1109/LRA.2023.3315210}
+pages={7312-7319}
 }
 ```
 Please kindly star :star: this project if it helps you.
