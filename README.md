@@ -18,6 +18,13 @@
 **SMART** facilitates fast reactive replanning in dynamic environments. It performs risk-based local tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path.
 
 <p align="center">
+  <img src="Gif/Illustrative example.png" height = "600"/>
+</p>
+<p align="center">
+Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree creation, and b)-i) tree-repair and replanning.
+</p>
+
+<p align="center">
   <img src="Gif/Scenario1_video_1x.gif" height = "300"/>
   <img src="Gif/Scenario2_video_1x.gif" height = "300"/>
 </p>
