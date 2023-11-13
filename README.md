@@ -43,7 +43,7 @@ trialIndex: control the random seed to generate the tree
 sceneIndex: control the random seed to generate dynamic obstacle motion
 dynObsPosition: initial position of dynamic obstacle
 goalState: fixed goal position
-robotInitState: initial robot position and speed
+robotInitState: contains initial robot position and constant linear speed
 cellSize: size of cell in meter
 staticObsMap.txt: binary occupancy grid map. free = 0; occupied = 1.
 ```
