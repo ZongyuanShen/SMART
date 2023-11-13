@@ -39,11 +39,11 @@ Fig. Point robot (yellow point) and dynamic obstacles (grey circle) move at a co
   - File "Main.cpp": trialIndex, dynObsNum, dynObsSpeed, sceneIndex, dynObsPosition, robotInitState, goalState
   - File "SMART.cpp": cellSize, staticObsMap.txt
 ```
-trialIndex: control the random seed to generate the tree
-sceneIndex: control the random seed to generate dynamic obstacle motion
+trialIndex: seed for random sample generation
+sceneIndex: seed for dynamic obstacle trajectory generation
 dynObsPosition: initial position of dynamic obstacle
-goalState: fixed goal position
-robotInitState: contains initial robot position and constant linear speed
+goalState: goal position
+robotInitState: contain initial robot position and constant linear speed
 cellSize: size of cell in meter
 staticObsMap.txt: binary occupancy grid map. free = 0; occupied = 1.
 ```
