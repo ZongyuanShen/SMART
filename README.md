@@ -24,8 +24,8 @@ Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree crea
 </p>
 
 <p align="center">
-  <img src="Gif/Scenario1_video_1x.gif" height = "300"/>
-  <img src="Gif/Scenario2_video_1x.gif" height = "300"/>
+  <img src="Gif/Scenario1_video_1x.gif" height = "255"/>
+  <img src="Gif/Scenario2_video_1x.gif" height = "255"/>
 </p>
 
 <p align="center">
