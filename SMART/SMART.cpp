@@ -1080,7 +1080,7 @@ void SMART::computeUtility(int row, int col)
 {
 	tiling[row][col].utility = 0;
 	vector<int> treeID = tiling[row][col].treeID;
-	if (std::find(treeID.begin(), treeID.end(), mainTreeID) == treeID.end()) // Cell contains main tree
+	if (std::find(treeID.begin(), treeID.end(), mainTreeID) != treeID.end()) // Cell contains main tree
 	{
 		vector<node*> nodeSet = tiling[row][col].nodeSet;
 		int nodeNum = nodeSet.size();
