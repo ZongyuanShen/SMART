@@ -2,7 +2,7 @@
 <h4 align="center">Zongyuan Shen, James P. Wilson, Shalabh Gupta*, Ryan Harvey</h4>
 <h4 align="center">Department of Electrical & Computer Engineering, University of Connecticut, Storrs, CT, USA</h4>
 
-<p align="center"> [<b><a href="https://ieeexplore.ieee.org/document/10250928">Paper</a></b>] &emsp;  [<b><a href="https://www.youtube.com/watch?v=Xb0yWwwN0SE&list=PL4xQ0coJXyn97zfJDkQchZNPpYGJfCBJ6">Experiment Video</a></b>] &emsp; [<b><a href="https://www.youtube.com/watch?v=8FYhoE-y34o&list=PL4xQ0coJXyn97zfJDkQchZNPpYGJfCBJ6&index=2">Simulation Video</a></b>] &emsp;[<b><a href="https://drive.google.com/file/d/1d_cqbyHNAHxAA4SC-DgQBfWWJfAHBIod/view?usp=drive_link">Slide</a></b>] &emsp;[<b><a href="#citation">Citation</a></b>]
+<p align="center"> [<b><a href="https://zongyuanshen.github.io/projects/2_project/>Project Page</a></b>] [<b><a href="https://ieeexplore.ieee.org/document/10250928">Paper</a></b>] &emsp;  [<b><a href="https://www.youtube.com/watch?v=Xb0yWwwN0SE&list=PL4xQ0coJXyn97zfJDkQchZNPpYGJfCBJ6">Experiment Video</a></b>] &emsp; [<b><a href="https://www.youtube.com/watch?v=8FYhoE-y34o&list=PL4xQ0coJXyn97zfJDkQchZNPpYGJfCBJ6&index=2">Simulation Video</a></b>] &emsp;[<b><a href="https://drive.google.com/file/d/1d_cqbyHNAHxAA4SC-DgQBfWWJfAHBIod/view?usp=drive_link">Slide</a></b>] &emsp;[<b><a href="#citation">Citation</a></b>]
 
 ## Table of Contents
 
@@ -15,13 +15,6 @@
 
 ## Introduction 
 **SMART** facilitates fast reactive replanning in dynamic environments. It performs risk-based local tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path.
-
-<p align="center">
-  <img src="Gif/Illustrative example.png" height = "600"/>
-</p>
-<p align="center">
-Fig. Illustration of the SMART algorithm: a) tree-pruning and disjoint tree creation, and b)-i) tree-repair and replanning.
-</p>
 
 <p align="center">
   <img src="Gif/Scenario1_video_1x.gif" height = "255"/>
