@@ -41,7 +41,7 @@ function  [h_robot, h_obs, h_tree, h_path] ...
 
     %% Plot dynamic obstacle %%
     for k=1:height(dynaObs_i)
-        if dynaObs_i(k,4) == 1
+        if dynaObs_i(k,3) == 1
             h_obs{i}(1,k)=circles(dynaObs_i(k,1),dynaObs_i(k,2),OHZ_radius,'edgecolor','red','facecolor','none'); % Mark CPR
         else
             h_obs{i}(1,k)=circles(dynaObs_i(k,1),dynaObs_i(k,2),OHZ_radius,'edgecolor','black','facecolor','none');
