@@ -98,12 +98,33 @@ SMART::~SMART(void)
 /*********************************/
 /***** Function for scenario *****/
 /*********************************/
+void SMART::simulateObstaclePos()
+{
+	for (int obs_id = 0; obs_id < dynObsNum; obs_id++)
+	{
+		double waypoint_x = obsGoal[obs_id][0];
+		double waypoint_y = obsGoal[obs_id][1];
+		double distToWaypoint = sqrt((waypoint_x - obsPosition[obs_id][0]) * (waypoint_x - obsPosition[obs_id][0]) + (waypoint_y - obsPosition[obs_id][1]) * (waypoint_y - obsPosition[obs_id][1]));
+		if (obstacleSpeed * timeDuration >= distToWaypoint)
+		{
+			obsPosition[obs_id][0] = waypoint_x;
+			obsPosition[obs_id][1] = waypoint_y;
+		}
+		else
+		{
+			double heading = atan2(waypoint_y - obsPosition[obs_id][1], waypoint_x - obsPosition[obs_id][0]);
+			obsPosition[obs_id][0] += cos(heading) * obstacleSpeed * timeDuration;
+			obsPosition[obs_id][1] += sin(heading) * obstacleSpeed * timeDuration;
+		}
+	}
+}
+
 void SMART::dynScenarioSimulate() 
 {
 	for (int obs_id = 0; obs_id < dynObsNum; obs_id++)
 	{
-		double dist_sq = (obsGoal[obs_id][0] - obsPosition[obs_id][0]) * (obsGoal[obs_id][0] - obsPosition[obs_id][0]) + (obsGoal[obs_id][1] - obsPosition[obs_id][1]) * (obsGoal[obs_id][1] - obsPosition[obs_id][1]);
-		if (dist_sq < reachThreshold * reachThreshold) // Obstacle reaches the waypoint
+		double dist = sqrt((obsGoal[obs_id][0] - obsPosition[obs_id][0]) * (obsGoal[obs_id][0] - obsPosition[obs_id][0]) + (obsGoal[obs_id][1] - obsPosition[obs_id][1]) * (obsGoal[obs_id][1] - obsPosition[obs_id][1]));
+		if (dist <= reachThreshold) // Obstacle reaches the waypoint
 		{
 			while (true)
 			{
@@ -138,47 +159,31 @@ bool SMART::blockGoalNode(double x, double y)
 	return false;
 }
 
-void SMART::simulateObstaclePos()
-{
-	for (int obs_id = 0; obs_id < dynObsNum; obs_id++)
-	{
-		double waypoint_x = obsGoal[obs_id][0];
-		double waypoint_y = obsGoal[obs_id][1];
-		double distToWaypoint_sq = (waypoint_x - obsPosition[obs_id][0]) * (waypoint_x - obsPosition[obs_id][0]) + (waypoint_y - obsPosition[obs_id][1]) * (waypoint_y - obsPosition[obs_id][1]);
-		if (distToWaypoint_sq > 0)
-		{
-			// Compute new obstacle pose given moving distance and heading
-			double heading = atan2(waypoint_y - obsPosition[obs_id][1], waypoint_x - obsPosition[obs_id][0]);
-			double dist = obstacleSpeed * timeDuration;
-			obsPosition[obs_id][0] += cos(heading) * dist;
-			obsPosition[obs_id][1] += sin(heading) * dist;
-			obsPosition[obs_id][2] = heading;
-		}
-	}
-}
-
 void SMART::simulateRobotPos()
 {
- 	double waypoint_x = wayPointNode->getX();
+	double waypoint_x = wayPointNode->getX();
 	double waypoint_y = wayPointNode->getY();
-	double distToWaypoint_sq = (waypoint_x - robotX) * (waypoint_x - robotX) + (waypoint_y - robotY) * (waypoint_y - robotY);
-	if (distToWaypoint_sq > 0)
+	double distToWaypoint = sqrt((waypoint_x - robotX) * (waypoint_x - robotX) + (waypoint_y - robotY) * (waypoint_y - robotY));
+	if (robotSpeed * timeDuration >= distToWaypoint)
 	{
-		// Compute new robot pose given moving distance and heading
+		robotX = waypoint_x;
+		robotY = waypoint_y;
+	}
+	else
+	{
 		double heading = atan2(waypoint_y - robotY, waypoint_x - robotX);
-		double dist = robotSpeed * timeDuration;
-		robotX += cos(heading) * dist;
-		robotY += sin(heading) * dist;
-		// Update distToRobot for each free cell
-		for (int row = 0; row < staticObsMapRow; row++)
+		robotX += cos(heading) * robotSpeed * timeDuration;
+		robotY += sin(heading) * robotSpeed * timeDuration;
+	}
+	// Update distToRobot for each free cell
+	for (int row = 0; row < staticObsMapRow; row++)
+	{
+		for (int col = 0; col < staticObsMapCol; col++)
 		{
-			for (int col = 0; col < staticObsMapCol; col++)
-			{
-				if (tiling[row][col].status == inStaticObs) continue;
-				double x = tiling[row][col].x;
-				double y = tiling[row][col].y;
-				tiling[row][col].distToRobot = sqrt((x - robotX) * (x - robotX) + (y - robotY) * (y - robotY));
-			}
+			if (tiling[row][col].status == inStaticObs) continue;
+			double x = tiling[row][col].x;
+			double y = tiling[row][col].y;
+			tiling[row][col].distToRobot = sqrt((x - robotX) * (x - robotX) + (y - robotY) * (y - robotY));
 		}
 	}
 }
@@ -1581,7 +1586,7 @@ bool SMART::reachWaypoint()
 	double waypoint_x = wayPointNode->getX();
 	double waypoint_y = wayPointNode->getY();
 	double dist = sqrt((waypoint_x - robotX) * (waypoint_x - robotX) + (waypoint_y - robotY) * (waypoint_y - robotY));
-	if (dist < reachThreshold)
+	if (dist <= reachThreshold)
 	{
 		//std::cout<<"reachwaypoint..."<<endl;
 		path.pop_back();
@@ -1609,7 +1614,6 @@ void SMART::dynObsInfoRecord()
 	pointRow.push_back(iterationIndex);
  	pointRow.push_back(iterationIndex);
 	pointRow.push_back(iterationIndex);
-	pointRow.push_back(iterationIndex);
 	dynObsInfo.push_back(pointRow);
 	for (int obs_id = 0; obs_id < dynObsNum; obs_id++)
 	{
@@ -1622,7 +1626,7 @@ void SMART::dynObsInfoRecord()
 				break;
 			}
 		}
-		dynObsInfo.push_back({obsPosition[obs_id][0],obsPosition[obs_id][1],obsPosition[obs_id][2],CPRTrue});
+		dynObsInfo.push_back({obsPosition[obs_id][0],obsPosition[obs_id][1],CPRTrue});
 	}
 }
 
