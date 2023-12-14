@@ -64,14 +64,12 @@ for i = 1:height(footPrintInfo)
     = dataVisualize(h_robot, h_obs, h_tree, h_path,...
     dynaObs_i, tree_i, path_i, footPrint_i, i);
     
-    pause(0.001);
      
     % Record the frame at the current iteration
     if videoRecord == true
             axesValue = axis;
             axis(axesValue);
             frame = getframe;
-            frame.cdata = imresize(frame.cdata, [2000 2000]);
             try
                 writeVideo(writerObj,frame);
             catch
