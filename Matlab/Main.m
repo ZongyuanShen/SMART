@@ -35,7 +35,7 @@ h_tree=[];
 h_path=[];
 h_robot = [];
 
-folder = 'dir_to_the_fold_of_data';
+folder = 'D:\Research\SMART\Final Package\Code\Github version\SMART\';
 
 %% Load data
 [dynObsInfo, treeInfo, pathInfo, footPrintInfo, staticObsMap] = dataLoad(folder);
@@ -68,14 +68,14 @@ for i = 1:height(footPrintInfo)
      
     % Record the frame at the current iteration
     if videoRecord == true
-            axesValue = axis;
-            axis(axesValue);
-            frame = getframe;
-            try
-                writeVideo(writerObj,frame);
-            catch
-                disp('something')
-            end
+        axesValue = axis;
+        axis(axesValue);
+        frame = getframe;
+        try
+            writeVideo(writerObj,frame);
+        catch
+            disp('something')
+        end
     end
   
     
