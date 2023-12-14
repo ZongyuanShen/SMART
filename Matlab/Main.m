@@ -7,7 +7,7 @@ close all;
 clc;
 
 %% Setup the video record
-videoRecord = false;
+videoRecord = true;
 if videoRecord == true
     disp('recording...')
     writerObj=VideoWriter('Demo','MPEG-4');
@@ -64,6 +64,7 @@ for i = 1:height(footPrintInfo)
     = dataVisualize(h_robot, h_obs, h_tree, h_path,...
     dynaObs_i, tree_i, path_i, footPrint_i, i);
     
+    %pause(0.001);
      
     % Record the frame at the current iteration
     if videoRecord == true
