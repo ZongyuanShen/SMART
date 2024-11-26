@@ -1,5 +1,5 @@
 <h1 align="center">SMART: Self-Morphing Adaptive Replanning Tree</h1>
-<h4 align="center">Zongyuan Shen, James P. Wilson, Shalabh Gupta*, Ryan Harvey</h4>
+<h4 align="center">Zongyuan Shen, James P. Wilson, Shalabh Gupta, Ryan Harvey</h4>
 <h4 align="center">Department of Electrical & Computer Engineering, University of Connecticut, Storrs, CT, USA</h4>
 
 <p align="center"> [<b><a href="https://ieeexplore.ieee.org/document/10250928">Paper</a></b>] &emsp;  [<b><a href="https://zongyuanshen.github.io/projects/2_project/">Project Page</a></b>] &emsp; [<b><a href="https://www.youtube.com/playlist?list=PL4xQ0coJXyn97zfJDkQchZNPpYGJfCBJ6">Video</a></b>] &emsp;[<b><a href="https://drive.google.com/file/d/1d_cqbyHNAHxAA4SC-DgQBfWWJfAHBIod/view?usp=drive_link">Slide</a></b>] &emsp;[<b><a href="#citation">Citation</a></b>]
