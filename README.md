@@ -7,9 +7,7 @@
 - [Introduction](#Introduction)
 - [Usage](#usage)
 - [Citation](#Citation)
-- [Acknowledgement](#Acknowledgement)
 - [License](#license)
-- [Maintaince](#Maintaince)
 
 ## Introduction 
 **SMART** facilitates fast reactive replanning in dynamic environments. It performs risk-based local tree-pruning if the current path is obstructed by nearby moving obstacle(s), resulting in multiple disjoint subtrees. Then, it exploits these subtrees and performs informed tree-repair at hot-spots that lie at the intersection of subtrees to find a new path.
@@ -86,9 +84,6 @@ pages={7312-7319}
 }
 ```
 Please kindly star :star: this project if it helps you.
-
-## Acknowledgement
-This research is supported by the Air Force Research Laboratory.
 
 ## License
 
